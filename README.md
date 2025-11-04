@@ -43,7 +43,6 @@ Note, no make file is provided.  It is suggested you create one to be more effic
   kill -s SIGINT 12345
   ```
   Where '12345' is the pid of the process you wanted to interrupt.
-**Name and describe the signal, define the default disposition taken by the operating system if a process does not define a signal handler, and determine if the disposition can be overridden by a signal handler.**
 - **SIGINT**: SIGINT is used to interrupt a process. By default, the process terminates upon recieving a SIGINT signal. The default disposition of SIGINT can be overridden by a signal handler.
 - **SIGTERM**: SIGTERM is used to terminate a process. By default, the process terminates. The default disposition of SIGTERM can be overridden by a signal handler.
 - **SIGUSR1**: SIGUSR1 is made to be a user defined signal. Thus, there is no default disposition and the default disposition of SIGUSR1 can be overridden by a signal handler.
