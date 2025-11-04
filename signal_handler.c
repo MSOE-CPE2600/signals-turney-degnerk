@@ -4,9 +4,9 @@
  */
 
 /**
- * Modified by:
+ * Modified by: Kadie Degner
  * 
- * Brief summary of modifications:
+ * Brief summary of modifications: Modified it so that the program does not exit in the signal handler.
  */
 
 
@@ -20,7 +20,6 @@
  */
 void handle_signal() {
     printf("Received a signal\n");
-    exit(1);
 }
 
 int main() {
