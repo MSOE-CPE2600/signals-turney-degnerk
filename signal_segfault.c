@@ -17,6 +17,7 @@
 
 void handle_sigsegv(int sig) {
     printf("Caught signal: Segmentation Fault\n");
+    sleep(1); // Sleep for a moment to prevent message spamming
 }
 
 int main (int argc, char* argv[]) {
