@@ -9,6 +9,7 @@
 #include <signal.h>
 #include <unistd.h>
 #include <stdlib.h>
+
 void alarm_handler(int signum) {
     printf("Alarm signal received!\n");
     exit(0);
